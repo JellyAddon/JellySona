@@ -1,9 +1,9 @@
 ﻿using EloBuddy;
 using System.Linq;
 using EloBuddy.SDK;
-using Settings = Jelly.Sona.Config.Modes.LaneClear;
+using Settings = JellySona.Config.Modes.LaneClear;
 
-namespace Jelly.Sona.Modes
+namespace JellySona.Modes
 {
     public sealed class LaneClear : ModeBase
     {

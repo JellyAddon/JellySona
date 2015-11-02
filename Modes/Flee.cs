@@ -3,7 +3,7 @@ using EloBuddy;
 using EloBuddy.SDK;
 
 
-namespace Jelly.Sona.Modes
+namespace JellySona.Modes
 {
     public sealed class Flee : ModeBase
     {

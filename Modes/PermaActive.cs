@@ -3,9 +3,9 @@ using EloBuddy;
 using EloBuddy.SDK;
 
 // Using the config like this makes your life easier, trust me
-using Settings = Jelly.Sona.Config.Misc;
+using Settings = JellySona.Config.Misc;
 
-namespace Jelly.Sona.Modes
+namespace JellySona.Modes
 {
     public sealed class PermaActive : ModeBase
     {

@@ -2,9 +2,9 @@
 using EloBuddy.SDK;
 
 // Using the config like this makes your life easier, trust me
-using Settings = Jelly.Sona.Config.Modes.Harass;
+using Settings = JellySona.Config.Modes.Harass;
 
-namespace Jelly.Sona.Modes
+namespace JellySona.Modes
 {
     public sealed class Harass : ModeBase
     {

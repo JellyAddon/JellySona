@@ -1,6 +1,6 @@
 ﻿using EloBuddy.SDK;
 
-namespace Jelly.Sona.Modes
+namespace JellySona.Modes
 {
     public abstract class ModeBase
     {
