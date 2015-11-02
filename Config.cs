@@ -105,7 +105,7 @@ namespace JellySona
                 {
                     Menu.AddGroupLabel("Harass");
                     _useQ = Menu.Add("harassUseQ", new CheckBox("Use Q", false));
-                    _Mana = Menu.Add("harassMana", new Slider("Maximum mana usage in percent ({0}%)", 40));
+                    _Mana = Menu.Add("harassMana", new Slider("Maximum mana usage in percent ({0}%)", 65));
                 }
 
                 public static void Initialize()
@@ -135,7 +135,7 @@ namespace JellySona
                     _useQ = Menu.Add("LaneClearUseQ", new CheckBox("Use Q", false));
 
                     // Mana usage bar
-                    _Mana = Menu.Add("LaneClearMana", new Slider("Maximum mana usage in percent ({0}%)", 90));
+                    _Mana = Menu.Add("LaneClearMana", new Slider("Maximum mana usage in percent ({0}%)", 50));
                 }
 
                 public static void Initialize()
@@ -187,7 +187,7 @@ namespace JellySona
 
                 // Adding a slider, we have a little more options with them, using {0} {1} and {2}
                 // in the display name will replace it with 0=current 1=min and 2=max value
-                _Mana = Menu.Add("AutoHealMana", new Slider("Dont use heal below this amount of Mana ({1}%)", 30));
+                _Mana = Menu.Add("AutoHealMana", new Slider("Dont use heal below this amount of Mana ({1}%)", 25));
                 _MinHP = Menu.Add("HPBar", new Slider("Dont heal unless they are below this amount of health ({1}%)", 15));
                 _Allies = Menu.Add("MinAllies", new Slider("Amount of allies in range before healing", 1, 1, 4));
             }
